@@ -14,15 +14,12 @@
            revision="refs/heads/14.0" />
 
   <!-- crDroid additions -->
-  <project path="android" name="crdroidandroid/android" remote="crdroid" />
 
   <project path="art" name="crdroidandroid/android_art" groups="pdk" remote="crdroid" />
 
   <project path="bionic" name="crdroidandroid/android_bionic" groups="pdk" remote="crdroid" />
 
   <project path="bootable/recovery" name="crdroidandroid/android_bootable_recovery" groups="pdk" remote="crdroid" />
-
-  <project path="device/lineage/sepolicy" name="crdroidandroid/android_device_crdroid_sepolicy" remote="crdroid" />
 
   <project path="external/arm-optimized-routines" name="crdroidandroid/android_external_arm-optimized-routines" groups="pdk" remote="crdroid" />
   <project path="external/boringssl" name="crdroidandroid/android_external_boringssl" groups="pdk" remote="crdroid" />
@@ -43,7 +40,6 @@
   <project path="hardware/qcom-caf/sm8150/display" name="crdroidandroid/android_hardware_qcom_display" groups="qcom" revision="14.0-caf-sm8150" />
   <project path="hardware/qcom-caf/sm8150/media" name="crdroidandroid/android_hardware_qcom_media" groups="qcom,msmnile" revision="14.0-caf-sm8150" />
 
-  <project path="packages/apps/Backgrounds" name="crdroidandroid/android_packages_apps_Backgrounds" remote="crdroid" />
   <project path="packages/apps/Contacts" name="crdroidandroid/android_packages_apps_Contacts" groups="pdk-fs" remote="crdroid" />
   <project path="packages/apps/Dialer" name="crdroidandroid/android_packages_apps_Dialer" groups="pdk-fs" remote="crdroid" />
   <project path="packages/apps/FaceUnlock" name="crdroidandroid/android_packages_apps_FaceUnlock" remote="crdroid-gitlab" />
