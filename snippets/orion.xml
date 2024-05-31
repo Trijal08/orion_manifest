@@ -32,7 +32,7 @@
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="orion" />
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="orion" />
   <project path="lineage-sdk" name="android_lineage-sdk" remote="orion"  />
-  <project path="vendor/lineage" name="android_vendor_orion" remote="orion" revision = "14.0-wip" />
+  <project path="vendor/orion" name="android_vendor_orion" remote="orion" revision = "14.0-wip" />
   <project path="vendor/addons" name="android_vendor_addons" remote="orion"  />
   <project path="device/lineage/sepolicy" name="android_device_orion_sepolicy" remote="orion" />
 
