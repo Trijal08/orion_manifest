@@ -18,5 +18,6 @@ repo sync -c --no-clone-bundle --optimized-fetch --prune --force-sync -j$(nproc 
 ### Run your build
 ```
 . build/envsetup.sh
-brunch devicecodename
+lunch orion_<product_name>-<release_type>-<build_variant>
+mka space
 ```
