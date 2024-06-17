@@ -44,4 +44,5 @@
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="orion" />  
   <project path="vendor/OrionOTA" name="android_vendor_OrionOTA" remote="orion"  />
   <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="orion" />
+  <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" groups="pdk-fs" remote="orion" />
 </manifest>
