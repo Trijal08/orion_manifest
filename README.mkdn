@@ -7,7 +7,7 @@ cd OrionOS
 ```
 ### Initializing Repo
 ```
-repo init -u https://github.com/OrionOS-prjkt/android -b 14.0-alpha --git-lfs
+repo init -u https://github.com/OrionOS-prjkt/android -b 14.0-qpr3 --git-lfs
 ```
 
 ### Sync sources
