@@ -21,3 +21,14 @@ repo sync -c --no-clone-bundle --optimized-fetch --prune --force-sync -j$(nproc 
 lunch orion_<product_name>-<release_type>-<build_variant>
 mka space
 ```
+
+### OrionOS Flags
+```
+ORION_MAINTAINER := Unknown
+ORION_MAINTAINER_LINK := <social media link>
+ORION_BUILD_TYPE := UNOFFICIAL
+ORION_GAPPS := true
+TARGET_ENABLE_BLUR := true
+TARGET_BOOT_ANIMATION_RES := 720/1080/1440
+TARGET_HAS_UDFPS :=  true/false
+```
