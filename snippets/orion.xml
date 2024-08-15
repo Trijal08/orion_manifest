@@ -50,4 +50,5 @@
   <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="orion" />
   <project path="vendor/certification" name="android_vendor_certification" remote="orion" />
   <project path="vendor/pixel-framework" name="android_vendor_pixel-framework" remote="orion" />
+  <project path="vendor/lineage/signed" name="android_signed" remote="orion" />
 </manifest>
