@@ -51,4 +51,5 @@
   <project path="vendor/certification" name="android_vendor_certification" remote="orion" />
   <project path="vendor/pixel-framework" name="android_vendor_pixel-framework" remote="orion" />
   <project path="vendor/lineage/signed" name="android_signed" remote="orion" />
+  <project path="system/core" name="android_system_core" groups="pdk" remote="orion" />
 </manifest>
