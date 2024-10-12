@@ -13,6 +13,12 @@
            sync-j="4"
            revision="refs/heads/14.0" />
 
+  <remote  name="Trijal08"
+           fetch="https://github.com/Trijal08"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/14.0" />
+
   <project path="android" name="android" remote="orion" />
   <project path="build/make" name="android_build" groups="pdk,sysui-studio" remote="orion" >
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk" />
@@ -41,7 +47,7 @@
   <project path="packages/apps/crDroidSettings" name="android_packages_apps_OrionSpaces" remote="orion"/>
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" remote="orion" />
   <project path="packages/apps/SetupWizard" name="android_packages_apps_SetupWizard" remote="orion" />
-  <project path="vendor/gapps" name="android_vendor_gapps" remote="bb" />
+  <project path="vendor/gapps" name="orion_vendor_gapps" remote="Trijal08" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="orion" />
   <project path="vendor/OrionOTA" name="android_vendor_OrionOTA" remote="orion"  />
   <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="orion" />
