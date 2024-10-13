@@ -7,7 +7,7 @@ cd OrionOS
 ```
 ### Initializing Repo
 ```
-repo init -u https://github.com/OrionOS-prjkt/android -b 14.0 --git-lfs
+repo init -u https://github.com/Trijal08/orion_manifest -b 14.0 --git-lfs
 ```
 
 ### Sync sources
@@ -35,4 +35,7 @@ TARGET_HAS_UDFPS :=  true/false
 BUILD_GOOGLE_CONTACTS := true
 BUILD_GOOGLE_DIALER := true
 BUILD_GOOGLE_MESSAGE := true
+TARGET_INCLUDE_PIXEL_LAUNCHER := true
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
 ```
