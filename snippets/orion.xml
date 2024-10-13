@@ -61,6 +61,7 @@
   <project path="vendor/certification" name="android_vendor_certification" remote="orion" />
   <project path="vendor/google/pixel-framework" name="vendor_google_pixel-framework" remote="pixelstar" />
   <project path="vendor/google/pixel-additional" name="vendor_google_pixel-additional" remote="pixelstar" />
+  <project path="vendor/google/mainline_modules" name="vendor_google_mainline_modules" remote="pixelstar" />
   <project path="vendor/lineage/signed" name="android_signed" remote="orion" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="orion" />
 </manifest>
