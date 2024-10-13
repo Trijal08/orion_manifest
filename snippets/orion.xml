@@ -59,8 +59,8 @@
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" groups="pdk-fs" remote="orion" />
   <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="orion" />
   <project path="vendor/certification" name="android_vendor_certification" remote="orion" />
-  <project path="vendor/pixel-framework" name="vendor_google_pixel-framework" remote="pixelstar" />
-  <project path="vendor/pixel-additional" name="vendor_google_pixel-additional" remote="pixelstar" />
+  <project path="vendor/google/pixel-framework" name="vendor_google_pixel-framework" remote="pixelstar" />
+  <project path="vendor/google/pixel-additional" name="vendor_google_pixel-additional" remote="pixelstar" />
   <project path="vendor/lineage/signed" name="android_signed" remote="orion" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="orion" />
 </manifest>
